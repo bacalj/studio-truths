@@ -17,13 +17,13 @@ export default {
       hidden: true,
       readOnly: true
     },
-    {
-      name: 'heroHeading',
-      title: 'Hero Heading',
-      type: 'string',
-      description: 'The larger text in in the "hero" area',
-      group: 'landingContent'
-    },
+    // {
+    //   name: 'heroHeading',
+    //   title: 'Hero Heading',
+    //   type: 'string',
+    //   description: 'The larger text in in the "hero" area',
+    //   group: 'landingContent'
+    // },
     {
       name: 'heroSubheading',
       title: 'Hero Subheading',
