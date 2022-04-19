@@ -26,23 +26,21 @@ export default {
     // },
     {
       name: 'heroSubheading',
-      title: 'Hero Subheading',
-      type: 'text',
-      description: 'The smaller text in in the "hero" area',
+      title: 'Subheading',
+      type: 'blockContent',
+      description: 'The smaller text in in the top area',
       group: 'landingContent'
     },
     {
       name: 'date',
       title: 'Date and Time',
       type: 'string',
-      description: 'text of date and time',
       group: 'landingContent'
     },
     {
       name: 'locationName',
       title: 'Location Text',
       type: 'string',
-      description: 'text of location',
       group: 'landingContent'
     },
     {
