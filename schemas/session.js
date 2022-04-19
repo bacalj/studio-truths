@@ -9,6 +9,14 @@ export default {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title'
+      }
+    },
+    {
       name: 'time',
       title: 'Time',
       type: 'string',
@@ -22,6 +30,12 @@ export default {
       name: 'order',
       title: 'Order',
       type: 'number'
+    },
+    {
+      name: 'createPage',
+      title: 'Create Dedicated Page',
+      type: 'boolean',
+      description: 'Should there be a dedicated page for this session or schedule item?'
     }
   ],
   preview: {
