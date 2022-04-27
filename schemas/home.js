@@ -26,35 +26,58 @@ export default {
     // },
     {
       name: 'heroSubheading',
-      title: 'Subheading',
+      title: 'Power of Truths Subheading',
       type: 'blockContent',
-      description: 'The smaller text in in the top area',
+      description: 'The smaller text that goes below "Power of Truths"',
       group: 'landingContent'
     },
     {
       name: 'date',
       title: 'Date and Time',
       type: 'string',
-      group: 'landingContent'
+      group: 'landingContent',
+      hidden: true
     },
     {
       name: 'locationName',
       title: 'Location Text',
       type: 'string',
-      group: 'landingContent'
+      group: 'landingContent',
+      hidden: true
     },
     {
       name: 'missionStatement',
       title: 'Mission Statement',
       type: 'text',
-      group: 'pageContent'
+      group: 'pageContent',
+      hidden: true
+    },
+    {
+      name: 'introVideo',
+      title: 'Intro Video',
+      type: 'url',
+      group: 'landingContent'
     },
     {
       name: 'pageContent',
-      title: 'Page Content',
+      title: 'About Section Content',
       type: 'blockContent',
       group: 'pageContent',
-      description: 'Use the expansion button for a bigger editor.',
+      description: 'The about section.',
+      validation: Rule => Rule.required()
+    },
+    {
+      name: 'scheduleContent',
+      title: 'Schedule Section Content',
+      type: 'blockContent',
+      group: 'pageContent',
+      validation: Rule => Rule.required()
+    },
+    {
+      name: 'registerContent',
+      title: 'Register Section Content',
+      type: 'blockContent',
+      group: 'pageContent',
       validation: Rule => Rule.required()
     }
   ]
