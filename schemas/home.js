@@ -56,7 +56,8 @@ export default {
       name: 'introVideo',
       title: 'Intro Video',
       type: 'url',
-      group: 'landingContent'
+      group: 'landingContent',
+      hidden: true
     },
     {
       name: 'pageContent',
